@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px 0;
+    font-size: 56px;
+}
+.calculator-sec {
+    display: block;
+    background-color: skyblue;
+    padding: 50px 0px;
+    width: 100cw;
+    height: 70vh;
+    text-align: center;
+    margin: 100px 0px;
+}
+.cal-heading{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: nuni;
+    padding: 10px;
+}
+.cal-container{
+    display: flex;
+    justify-content: center;
+}
+.cal-sub-container {
+    border: 2px solid white;
+    width: 340px;
+    text-align: center;
+    padding: 40px 15px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 4px 2px 20px rgb(49, 53, 54);
+}
+input {
+    text-align: right;
+    width: 260px;
+    height: 70px;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin: 20px 0px;
+    border: 1px solid wheat;
+    background-color: rgb(247, 211, 217);
+    color: black;
+    box-shadow: 4px 2px 10px rgb(102, 124, 133);
+}
+.btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(247, 211, 217);
+    box-shadow: 4px 2px 10px rgb(102, 124, 133);
+}
+.equal-btn {
+    width: 130px;
+    background-color: rgb(139, 178, 193);
+    box-shadow: 4px 2px 10px rgb(102, 124, 133);
+}
+
+.source-code{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.code-h{
+    color: white;
+    font-size: 44px;
+}
